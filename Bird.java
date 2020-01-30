@@ -5,3 +5,4 @@ public class Bird extends Animal {
         super(flee, sail, jump, age, ageLife);
     }
 }
+//

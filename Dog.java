@@ -5,3 +5,4 @@ public class Dog extends Animal {
         super(flee, sail, jump, age, ageLife);
     }
 }
+//

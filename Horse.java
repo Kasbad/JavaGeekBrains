@@ -5,3 +5,4 @@ public class Horse extends Animal {
         super(flee, sail, jump, age, ageLife);
     }
 }
+//
