@@ -18,25 +18,6 @@ public class Map extends JPanel {
                                                                                     // отрабатывают медоды
         System.out.printf("game mode: %d\nfieldSize: %d\nwinLength: %d",           //  получает игровые параметры из класса Settings
                 gameMode, fieldSizeX, winLength);
-
-        JPanel panelFields = new JPanel(new GridLayout(fieldSizeX, fieldSizeY));
-        JTextField bigField1 = new JTextField("Текст поля", 25);
-        JTextField bigField2 = new JTextField("Текст поля", 25);
-        JTextField bigField3 = new JTextField("Текст поля", 25);
-        JTextField bigField4 = new JTextField("Текст поля", 25);
-        JTextField bigField5 = new JTextField("Текст поля", 25);
-        JTextField bigField6 = new JTextField("Текст поля", 25);
-        JTextField bigField7 = new JTextField("Текст поля", 25);
-
-        //JPanel panelFilds = new JPanel(new GridLayout(3, 3));
-        //for(int i = 0;i<=3*3;i++){
-        panelFields.add(bigField1);
-        panelFields.add(bigField2);
-        panelFields.add(bigField3);
-        panelFields.add(bigField4);
-        panelFields.add(bigField5);
-        panelFields.add(bigField6);
-        panelFields.add(bigField7);
     }
 }
 
