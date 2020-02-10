@@ -45,13 +45,13 @@ public class Settings extends JFrame {
     }
 
     private void addGameModeControls() {
-        add(new JLabel("Choose game mode")); // добавить написть на окно
-        jrbHumVsAi = new JRadioButton("Human vs. AI", true); // добавить радио кнопку и поставить на нее фокус
+        add(new JLabel("Choose game mode"));
+        jrbHumVsAi = new JRadioButton("Human vs. AI", true);
         jrbHumVsHum = new JRadioButton("Human vs Human");
-        ButtonGroup mode = new ButtonGroup();// зоздать группу для радиокнопок
-        mode.add(jrbHumVsAi); //добавить их групп
+        ButtonGroup mode = new ButtonGroup();
+        mode.add(jrbHumVsAi);
         mode.add(jrbHumVsHum);
-        add(jrbHumVsAi); // добавить радио кнопки на окно
+        add(jrbHumVsAi);
         add(jrbHumVsHum);
     }
 

@@ -51,15 +51,8 @@ public class GameWindow extends JFrame {
         add(panelButtons, BorderLayout.SOUTH);  // добавить панель с кнопками на юг
         setVisible(true); // включает видимость окна
     }
-// задание3 * Рачертить панель Map на поле для игры, согласно fieldSize
-    //Пробывал разные вариаты, вызывал из разных классов
-    //получилосо нарисовать в маре, но почемуто на севере в ценре отказывается это делать
-    // И прорисовываетя при сразу при старе программы. В других случаях
-    // вообще отказывается. Как закончистся курс нужно будет его снова начинать и разбирать построчно
-    // если что то не совсем понятно. Главное чтоб нашлась возможность.
+
     void start(int gameMode, int fieldSizeX, int fieldSizeY, int winLength) {
-        JPanel panelFields = new JPanel(new GridLayout(fieldSizeX, fieldSizeY));
-        add(panelFields, BorderLayout.CENTER);
         map.startNewGame(gameMode, fieldSizeX, fieldSizeY, winLength);
     }
 
